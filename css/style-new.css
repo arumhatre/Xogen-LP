@@ -630,10 +630,12 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 
 .box_bene_col_non_activate{
+	height: 275px;
 	background: #fff;
 }
 
 .box_bene_col_activate{
+	height: 275px;
   background: linear-gradient(359deg, #1e70b8 0, #33a9e1 100%);
   color: #fff;
 }

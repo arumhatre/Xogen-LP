@@ -371,7 +371,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 }
 @media (max-width:411px){
-.Xogen_heding_banner{font-size:30px}
+.Xogen_heding_banner{font-size:28px}
 .Xogen_Sub_heding_banner{font-size:25px}
 .xogen_banner_content img{width:45%}
 .Xogen_black_heding{font-size:28px}
@@ -383,7 +383,8 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_heding_banner{font-size:26px}
 }
 @media (max-width:375px){
-.Xogen_Sub_heding_banner{font-size:21px}
+.Xogen_heding_banner{font-size:21px}
+.Xogen_Sub_heding_banner{font-size:16px}
 }
 .banner_list_xogen{padding-top:22px;padding-inline-start:20px}
 .banner_list_xogen li{font-size:21px;font-weight:600;color:#464646}

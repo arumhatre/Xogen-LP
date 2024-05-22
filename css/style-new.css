@@ -16,7 +16,7 @@ header{background:#f2faff}
 .head-main-tel:hover{color:#e7effa;text-decoration:none}
 .headerno-cls{font-size:30px}
 .main-all-heading{font-size:32px;font-weight:500;color:#212121;line-height:38px}
-.main-all-heading u{text-decoration-color:#e3000f;text-underline-offset:6px}
+.main-all-heading u{font-weight:500;text-decoration-color:#e3000f;text-underline-offset:6px}
 .main-all-heading span{text-transform:lowercase;font-weight:600;font-size:26px}
 @media (max-width:768px){
 .main-all-heading{font-size:30px;text-align:center;text-align:left;line-height:35px}
@@ -320,7 +320,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .xogen-para{padding-top:15px;font-size:16px;color:#212121}
 .xogen-list-para{list-style:none;padding-inline-start:0px;}
 .xogen-list-para li{display: flex; padding-right:20px;color:#212121; padding-top: 17px}
-.xogen-list-para li img {width: 30px; height: 29px; margin-right: 10px;}
+.xogen-list-para li img {width: 27px; height: 26px; margin-right: 10px; margin-top: 3px}
 .Xogen_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:45px;margin-top: 15px}
 .Xogen_Sub_heding_banner{font-size:40px;font-weight:400;margin-bottom:10px;}
 .Xogen_black_heding{display:none;margin-top:30px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase}
@@ -371,6 +371,9 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 }
 @media (max-width:411px){
+..xogen_banner_content{
+text-align: center;
+}
 .Xogen_heding_banner{font-size:28px}
 .Xogen_Sub_heding_banner{font-size:25px}
 .xogen_banner_content img{width:45%}
@@ -590,8 +593,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 /*==========================================*/
 
 .key_heading_css{
-        font-size: 21px;
-        font-weight: 500;
+        font-size: 16px;
         margin-bottom: 5px;
         color: #212121;
         line-height: normal;

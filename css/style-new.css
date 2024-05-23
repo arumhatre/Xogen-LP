@@ -223,7 +223,6 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .flipsub-heading{font-weight:600;color:#30292b;font-size:16px;text-transform:uppercase}
 .flip-list{color:#636363;font-size:15px;padding-inline-start:19px}
 .box-for-treatment-sec{margin:12px;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
-.ai-box-content{padding:10px 20px;max-height:500px;height:500px}
 .tratment-sub-heading{padding-top:20px;font-size:20px;color:#212121;line-height:30px;font-weight:600}
 .tratment-slider-img-wid{width:100%!important}
 #tratment_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:.4}
@@ -237,19 +236,36 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 .faq-box-cls{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #b1b1b1}
 .panel-title{margin-bottom:0;text-decoration:none!important}
-.panel-title a,.panel-title a:hover{text-decoration:none!important;color:#30292b;font-size:21px;font-weight:500}
+
+.panel-title a {text-decoration:none!important;color:#0073ae;font-size:21px;font-weight:500;line-height: 24px; padding: 0}
+.panel-title a.collapsed {text-decoration:none!important;color:#212121;font-size:21px;font-weight:400;line-height: 24px; padding: 0}
+
+
+/*.panel-title a:hover{text-decoration:none!important;color:#30292b;font-size:21px;font-weight:500}*/
 .panel-title a span{padding:10px;margin-right:10px;background:linear-gradient(359deg,#03619a 0,#047dc7 100%);color:#fff;border-radius:50%;font-size:18px;font-weight:600}
 .panel-title a.collapsed span{color:#fff;background:#000;font-weight:500}
-.panel-title a:after{content:"-";float:right;font-size:30px;font-weight:400;position:absolute;right:25px;margin:-15px}
+
+
+
+.panel-title a:after{content:"-";float:right;font-size:30px;font-weight:300;position:absolute;right:25px; margin: 0}
 .panel-title a.collapsed:after{content:"+"}
-.para-faq{padding:20px 40px 0 60px;font-size:16px;color:#636363}
+.para-faq{padding:15px 0 0 0;font-size:16px;color:#636363}
 .panel-title .btn-link:focus{box-shadow:none}
 @media screen and (max-width:600px){
-.panel-title a{text-decoration:none;color:#30292b;font-size:18px;font-weight:500}
-.panel-title a span{padding:8px;font-size:16px;line-height:40px}
-.para-faq{padding:10px 20px 0 10px;font-size:16px;color:#636363}
+
+.panel-title a {text-decoration:none!important;color:#0073ae;font-size:18px;font-weight:500;line-height: 21px; padding: 0}
+.panel-title a.collapsed {text-decoration:none!important;color:#212121;font-size:18px;font-weight:400;line-height: 21px; padding: 0}
+/*.panel-title a{text-decoration:none;color:#30292b;font-size:18px;font-weight:500}
+.panel-title a span{padding:8px;font-size:16px;line-height:40px}*/
+.para-faq{padding:10px 0 0 0px;font-size:16px;color:#636363}
 .faq-box-cls{padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #b1b1b1}
+.panel-title a:after{content:"-";float:right;font-size:25px;font-weight:300;position:absolute;right:25px; margin: 0}
 }
+
+
+
+
+
 .footer{background:#262626;color:#fff;font-size:13px;padding:20px 0;font-weight:500!important}
 .copyright{font-weight:500}
 .footerLink ul{padding:0;margin:0;list-style:none}
@@ -374,14 +390,14 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_black_heding{display:block;margin-top:10px;font-size:21px;font-weight:600;color:#4b4b4b;text-transform:uppercase; margin-bottom: 0}
 .Xogen_heding_banner{font-size:28px;margin-top: 5px;}
 .Xogen_Sub_heding_banner{font-size:21px;margin-bottom: 0}
-.xogen_banner_content img{width:50%}
-.xogen-list-para li{display: flex; padding-right:0px;color:#212121; padding-top: 17px}
+.xogen_banner_content img{width:45%}
+.xogen-list-para li{display: flex; padding-right:0px;color:#212121; padding-top: 10px}
 .xogen-list-para li img {width: 22px; height: 21px; margin-right: 10px; margin-top: 3px}
 }
 @media (max-width:411px){
 .Xogen_heding_banner{font-size:28px; margin-top: 5px}
 .Xogen_Sub_heding_banner{font-size:25px}
-.xogen_banner_content img{width:55%}
+.xogen_banner_content img{width:45%}
 }
 @media (max-width:390px){
 .Xogen_heding_banner{font-size:28px; margin-top: 5px}       
@@ -572,7 +588,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .flip-list{color:#636363;font-size:15px;padding-inline-start:19px}
 .box-for-treatment-sec{margin:12px;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
 .ai-box-content{padding:10px 20px;max-height:500px;height:500px}
-.tratment-sub-heading{padding-top:20px;font-size:20px;color:#212121;line-height:30px;font-weight:600}
+.tratment-sub-heading{padding-top:20px;font-size:20px;color:#212121;line-height:24px;font-weight:600}
 .tratment-slider-img-wid{width:100%!important}
 #tratment_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:.4}
 #tratment_slider .owl-item.center .item img{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1}
@@ -583,6 +599,21 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 #tratment_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 #tratment_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
+
+@media (max-width:600px){
+    .ai-box-content{padding:10px 20px;max-height:450px;height:450px}    
+}
+
+@media (max-width:420px){
+    .ai-box-content{padding:10px 20px;max-height:420px;height:420px}    
+}
+
+
+@media (max-width:380px){
+    .ai-box-content{padding:10px 20px;max-height:440px;height:440px}    
+}
+
+
 
 /*==========================================*/
 /* Video css*/
@@ -616,6 +647,29 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 #key_action_slider .owl-item img{
   display: inline !important;
 }
+
+
+.key_icon_box{
+        margin-top: 15px;
+}
+
+.key_icon_box img{
+        width: 60px;
+        height: 60px;
+}
+
+.key_icon_box p{
+       margin-left: 0px;
+       margin-bottom: 0;
+       display: flex;
+}
+
+
+.key_icon_box p span{
+        margin: auto 15px;
+        color: #212121;
+}
+
 
 @media (max-width: 1024px) {
   .owl-item .item {
@@ -652,6 +706,15 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 }
 
+
+@media (max-width: 992px) {
+
+.key_icon_box img{
+        width: 50px;
+        height: 50px;
+}
+
+}
 
 
 

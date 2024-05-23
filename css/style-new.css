@@ -266,8 +266,8 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .panel-title .btn-link:focus{box-shadow:none}
 @media screen and (max-width:600px){
 
-.panel-title a {text-decoration:none!important;color:#0073ae;font-size:18px;font-weight:500;line-height: 21px; padding: 0}
-.panel-title a.collapsed {text-decoration:none!important;color:#212121;font-size:18px;font-weight:400;line-height: 21px; padding: 0}
+.panel-title a {text-decoration:none!important;color:#0073ae;font-size:16px;font-weight:600;line-height: 21px; padding: 0}
+.panel-title a.collapsed {text-decoration:none!important;color:#212121;font-size:16px;font-weight:600;line-height: 21px; padding: 0}
 /*.panel-title a{text-decoration:none;color:#30292b;font-size:18px;font-weight:500}
 .panel-title a span{padding:8px;font-size:16px;line-height:40px}*/
 .para-faq{padding:10px 0 0 0px;font-size:16px;color:#636363}
@@ -515,7 +515,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
   margin: 0 3px;
 }
 #process_slider  .owl-dots button.owl-dot.active {
-  background-color: #000;
+  background-color: #0073ae;
 }
 #process_slider  .owl-dots button.owl-dot:focus {
   outline: none;
@@ -812,11 +812,11 @@ margin-top: 60px;
 
 @media (max-width: 600px){
 .real_result_sec_pad{
-margin-top: 20px;
+margin-top: 40px;
 }
 
 .vedio_section_pad{
-        margin-top: 40px;
+        margin-top: 20px;
 }
 
 .about_xogen_section_pad{

@@ -19,9 +19,12 @@ header{background:#f2faff}
 .main-all-heading u{font-weight:500;text-decoration-color:#e3000f;text-underline-offset:6px}
 .main-all-heading span{text-transform:lowercase;font-weight:600;font-size:26px}
 @media (max-width:768px){
-.main-all-heading{font-size:30px;text-align:center;text-align:left;line-height:35px}
+.main-all-heading{font-size:24px;text-align:center;text-align:left;line-height:30px}
 }
 .owl-carousel .owl-item img{width:auto}
+.owl-carousel .owl-dots{
+        display: none;
+}
 .banner-section-cls{background:url(../images/xogen-ban-bg.webp) bottom center no-repeat;background-size:cover}
 .banner-up-para{font-size:40px;margin-bottom:0;font-weight:500}
 .main-banner-heading-n{font-size:45px;text-transform:uppercase;font-weight:500;color:#0074ad}
@@ -317,6 +320,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 
 
+
 .xogen-para{padding-top:15px;font-size:16px;color:#212121}
 .xogen-list-para{list-style:none;padding-inline-start:0px;}
 .xogen-list-para li{display: flex; padding-right:20px;color:#212121; padding-top: 17px}
@@ -325,7 +329,8 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_Sub_heding_banner{font-size:40px;font-weight:400;margin-bottom:10px;}
 .Xogen_black_heding{display:none;margin-top:30px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase}
 /*.xogen_banner_content{margin-bottom:60px}*/
-.xogen_banner_content img{width:70%}
+.xogen_banner_content img{width:65%}
+
 @media (max-width:1680px){
 .Xogen_heding_banner{font-size:37px}
 .Xogen_Sub_heding_banner{font-size:26px}
@@ -360,35 +365,36 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 @media (max-width:768px){
 .Xogen_Sub_heding_banner{font-size:21px}
-.xogen_banner_content{padding-top:20px}
-.xogen-list-para{list-style: none; padding-inline-start:0px}
+.xogen_banner_content{padding-top:5px}
+.xogen-list-para{list-style: none; padding-inline-start:0px; margin-bottom: 0}
 .xogen-list-para li{padding-bottom:0px}
 .Xogen_black_heding{display:none}
 }
 @media (max-width:600px){
-.Xogen_black_heding{display:block;margin-top:20px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase}
-.Xogen_heding_banner{font-size:30px}
-.Xogen_Sub_heding_banner{font-size:25px}
+.Xogen_black_heding{display:block;margin-top:10px;font-size:21px;font-weight:600;color:#4b4b4b;text-transform:uppercase; margin-bottom: 0}
+.Xogen_heding_banner{font-size:28px;margin-top: 5px;}
+.Xogen_Sub_heding_banner{font-size:21px;margin-bottom: 0}
+.xogen_banner_content img{width:50%}
 
 }
 @media (max-width:411px){
-.xogen_banner_content{
-text-align: center;
-}
-.Xogen_heding_banner{font-size:28px}
+.Xogen_heding_banner{font-size:28px; margin-top: 5px}
 .Xogen_Sub_heding_banner{font-size:25px}
-.xogen_banner_content img{width:60%}
-.Xogen_black_heding{font-size:28px}
+.xogen_banner_content img{width:55%}
 }
 @media (max-width:390px){
-.Xogen_heding_banner{font-size:28px}       
+.Xogen_heding_banner{font-size:28px; margin-top: 5px}       
 }
 @media (max-width:384px){
-.Xogen_heding_banner{font-size:26px}
+.Xogen_heding_banner{font-size:26px; margin-top: 5px}
 }
 @media (max-width:375px){
-.Xogen_heding_banner{font-size:21px}
-.Xogen_Sub_heding_banner{font-size:16px}
+.Xogen_heding_banner{font-size:21px; margin-top: 5px}
+.Xogen_Sub_heding_banner{font-size:16px; margin-bottom: 0}
+.xogen_banner_content img{width:45%}
+.Xogen_black_heding{
+        font-size: 18px;
+}
 }
 .banner_list_xogen{padding-top:22px;padding-inline-start:20px}
 .banner_list_xogen li{font-size:21px;font-weight:600;color:#464646}
@@ -399,7 +405,7 @@ text-align: center;
 @media (max-width:600px){
 .xogen-ban-new-in-india{background-image:none}
 .banner_list_xogen{padding-top:5px}
-.banner_list_xogen li{font-size:21px;font-weight:600;color:#464646}
+.banner_list_xogen li{font-size:16px;font-weight:600;color:#464646}
 }
 
 /*==========================================*/
@@ -643,4 +649,103 @@ text-align: center;
   display: none;
 }
 
+}
+
+
+
+
+.real_result_sec_pad{
+margin-top: 60px;
+}
+
+.vedio_section_pad{
+        margin-top: 60px;
+}
+
+.about_xogen_section_pad{
+        margin-top: 60px;
+}
+
+.step_step_section_pad{
+        margin-top: 60px;
+}
+
+.range_slider_section_pad{
+        margin-top: 60px;
+}
+
+.google_rating_slider_pad{
+        margin-top: 60px;
+}
+
+.faq_sec_pad{
+        margin-top: 60px;
+}
+
+@media (max-width: 1680px){
+}
+
+@media (max-width: 1600px){
+}
+
+@media (max-width: 1440px){
+}
+
+@media (max-width: 1366px){
+}
+
+@media (max-width: 1024px){
+}
+
+@media (max-width: 850px){
+}
+
+@media (max-width: 800px){
+}
+
+@media (max-width: 768px){
+}
+
+@media (max-width: 600px){
+.real_result_sec_pad{
+margin-top: 20px;
+}
+
+.vedio_section_pad{
+        margin-top: 40px;
+}
+
+.about_xogen_section_pad{
+        margin-top: 40px;
+}
+
+.step_step_section_pad{
+        margin-top: 40px;
+}
+
+.range_slider_section_pad{
+        margin-top: 40px;
+}
+
+.google_rating_slider_pad{
+        margin-top: 40px;
+}
+
+.faq_sec_pad{
+        margin-top: 40px;
+}
+
+
+}
+
+@media (max-width: 411px){
+}
+
+@media (max-width: 384px){
+}
+
+@media (max-width: 375px){
+}
+
+@media (max-width: 360px){
 }

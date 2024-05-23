@@ -168,6 +168,9 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .owl-item .item{transform:translate3d(0,0,0);padding-bottom:20px;padding-top:20px}
 .screenshot_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.6);-ms-transform:scale(.6);transform:scale(.6);opacity:.4}
 .screenshot_slider .owl-item.center .item img{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1}
+.screenshot_slider .owl-dots{
+        display: none;
+}
 @media (max-width:1024px){
 .screenshot_slider .owl-item.center .item img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);opacity:1}
 }
